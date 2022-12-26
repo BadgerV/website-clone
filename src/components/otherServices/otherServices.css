@@ -1,0 +1,54 @@
+.otherServices_container {
+    width: 100%;
+    display: flex;
+    background-color: #f5efef;
+    padding: 1em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+    .otherServicesMini {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+        .otherSerivces_mini_container {
+            margin-bottom: 3em;
+        }
+
+            .otherServices_title {
+                display: block;
+                font-size: 2.3em;
+                font-weight: bold;
+                margin-bottom: 1em;
+            }
+            .blue {
+                color: rgb(39, 39, 201);
+            }
+            .text_container {
+                line-height: 1.8em;
+
+            }
+
+                .otherServices_text {
+            color : rgb(97, 90, 90);
+                    letter-spacing: 1px;
+                    line-height: 1.8;
+                    font-size: 1em;
+                    display: block;
+                }
+
+                .middleText {
+                    font-weight: bold;
+                    text-decoration: underline;
+            color : rgb(97, 90, 90);
+                }
+
+    @media (max-width: 55em) {
+        .otherServices_title {
+            font-size: 1.5em;
+        }
+    }

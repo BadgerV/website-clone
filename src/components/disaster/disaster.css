@@ -1,0 +1,78 @@
+
+.disaster_main {
+    padding: 2em 2em;
+    background-color: #f5efef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.disaster_containter {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2em;
+
+}
+
+    .disasterLeft {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+        .disaster_title {
+            font-size: 2em;
+            font-weight: bold;
+            color : rgb(67, 62, 62);
+            margin-bottom: 0.5em;
+        }
+
+        .disaster_text {
+            letter-spacing: 1px;
+            color : rgb(67, 62, 62);
+        }
+        
+
+        .button {
+        display: flex;
+        align-items: center;
+        }
+        
+
+        .learnMore {
+            display: flex;
+            color: #fff;
+            justify-content: center;
+            align-items: center;
+            background-color: #0629b0;
+            font-weight: 300;
+            font-size: 0.8em;
+        }
+        .innerButton {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #b89a31;
+            color: #fff;
+            font-size: 0.8em;
+        }
+    
+
+    .disasterRight {
+        flex: 4;
+    }
+
+        img {
+            max-height: 100%;
+        }
+
+    @media (max-width: 55em) { 
+        .disaster_containter {
+            width: 95%;
+            flex-direction: column;
+        }
+    }

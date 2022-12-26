@@ -1,0 +1,97 @@
+
+.slider {
+    background-position: center !important;
+    background-size: cover !important;
+    height: 90vh !important;
+}
+
+.previousButton {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+    background-color: rgb(250, 244, 247);
+    scale: 0.8;
+    padding: 0.8em !important;
+    border-radius: 50% !important;
+}
+
+.nextButton {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+    background-color: rgba(250, 244, 247, 0.5);
+    scale: 0.8;
+    padding: 0.8em !important;
+    border-radius: 50% !important;
+}
+
+
+
+.texts {
+    height: 100%;
+    width: 75%;
+    display: flex;
+    margin-left: 15%;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.big_text {
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+}
+.button {
+
+    margin-top: 2em;
+    height: 3.5em;
+    max-width: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+
+.learnMore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 13em;
+    height: 100%;
+    background-color: hsl(46.7,57.9%,45.7%);
+    color: white;
+    border-end-start-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.innerButton {
+    width: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: hsl(227.6,93.4%,35.7%);
+    border-top-right-radius: 5px;
+    border-end-end-radius: 5px;
+    color: white;
+}
+
+@media (max-width: 50em) { 
+    .previousButton, .nextButton {
+        margin-top: 35%;
+        scale: 0.5;
+        padding: 0;
+        background-color: rgba(250, 244, 247, 0.5);
+    }
+
+    .big_text {
+        font-size: 1.5em;
+        line-height: 1;
+    }
+
+    .button {
+        margin-top: 20px;
+    }
+
+    .learnMore {
+        background-color: hsl(227.6,93.4%,35.7%);
+    }
+
+    .innerButton {
+        display: none;
+    }
+}
